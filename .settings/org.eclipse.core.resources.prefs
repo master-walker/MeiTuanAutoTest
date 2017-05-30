@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//src/ComLib/BasePage.py=utf-8
+encoding//src/ComLib/CommonFunc.py=utf-8
+encoding//src/ComLib/MyTest.py=utf-8
+encoding//src/ComLib/Public.py=utf-8
+encoding//src/Config/ReadConfig.py=utf8
+encoding//src/Elements/BaseElements.py=utf-8
+encoding//src/ScriptExcute/ExcuteAllTestCase.py=utf-8
+encoding//src/ScriptExcute/TestTakeOutOrder.py=utf-8
+encoding//src/TestCaseUnit/MT_HomePage.py=utf-8
+encoding//src/TestCaseUnit/MT_MeiShiPage.py=utf-8
+encoding//src/TestCaseUnit/MT_MyPage.py=utf-8
+encoding//src/TestCaseUnit/MT_Restaurant.py=utf-8
+encoding//src/TestCaseUnit/MT_SubmitOrder.py=utf-8
+encoding//src/TestCaseUnit/MT_TakeOutPage.py=utf-8
+encoding//src/TestReport/MT_AutoTest.log=UTF-8

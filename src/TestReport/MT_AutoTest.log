@@ -1,0 +1,35 @@
+2017-05-30 22:21:16,970 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\MyTest.py  setUp line:19  ############################### START ###############################
+2017-05-30 22:21:21,200 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement 澶栧崠, Spend 2.22800016403 seconds
+2017-05-30 22:21:23,845 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  澶栧崠 click  Spend 2.64499998093 seconds
+2017-05-30 22:21:26,042 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement 缇庨, Spend 0.196000099182 seconds
+2017-05-30 22:21:26,496 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  缇庨 click  Spend 0.454999923706 seconds
+2017-05-30 22:21:28,795 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement 鑲痉鍩�, Spend 0.298000097275 seconds
+2017-05-30 22:21:28,973 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  鑲痉鍩� click  Spend 0.177999973297 seconds
+2017-05-30 22:21:32,220 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  getGroupElements line:76  SUCCESS    getElement <appium.webdriver.webelement.WebElement (session="4cdcc8de-77df-48b2-907e-339e9c0e366a", element="6")>, Spend 1.24699997902 seconds
+2017-05-30 22:21:32,424 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\TestCaseUnit\MT_Restaurant.py  orderDishes line:17  閫夋嫨绗竴涓彍鍝�
+2017-05-30 22:21:33,220 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement 鍘荤粨绠�, Spend 0.796999931335 seconds
+2017-05-30 22:21:33,609 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  鍘荤粨绠� click  Spend 0.388000011444 seconds
+2017-05-30 22:21:35,753 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement //android.widget.TextView[contains(@text,'浜屽潡棣欒荆楦＄繀')], Spend 0.141999959946 seconds
+2017-05-30 22:21:35,789 root DEBUG E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ScriptExcute\TestTakeOutOrder.py  testCase line:50  閫夋嫨鐨勮彍鍝佹纭�
+2017-05-30 22:21:35,914 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement 鎻愪氦璁㈠崟, Spend 0.125999927521 seconds
+2017-05-30 22:21:36,503 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  鎻愪氦璁㈠崟 click  Spend 0.588000059128 seconds
+2017-05-30 22:21:42,711 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\MyTest.py  tearDown line:24  ###############################  End  ###############################
+2017-05-30 22:25:10,440 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\MyTest.py  setUp line:18  
+
+2017-05-30 22:32:24,918 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\MyTest.py  setUp line:19  ############################### START ###############################
+2017-05-30 22:32:36,200 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement 澶栧崠, Spend 9.27999997139 seconds
+2017-05-30 22:32:39,283 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  澶栧崠 click  Spend 3.08399987221 seconds
+2017-05-30 22:32:49,224 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement 缇庨, Spend 7.9399998188 seconds
+2017-05-30 22:32:49,691 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  缇庨 click  Spend 0.46599984169 seconds
+2017-05-30 22:32:52,312 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement 鑲痉鍩�, Spend 0.620000123978 seconds
+2017-05-30 22:32:52,497 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  鑲痉鍩� click  Spend 0.1859998703 seconds
+2017-05-30 22:32:56,094 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  getGroupElements line:76  SUCCESS    getElement <appium.webdriver.webelement.WebElement (session="633653d3-ee9b-4811-8924-284129dfdad2", element="5")>, Spend 1.59500002861 seconds
+2017-05-30 22:32:56,298 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\TestCaseUnit\MT_Restaurant.py  orderDishes line:17  閫夋嫨绗竴涓彍鍝�
+2017-05-30 22:32:57,049 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement 鍘荤粨绠�, Spend 0.750999927521 seconds
+2017-05-30 22:32:57,365 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  鍘荤粨绠� click  Spend 0.31500005722 seconds
+2017-05-30 22:32:59,618 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement //android.widget.TextView[contains(@text,'浜屽潡棣欒荆楦＄繀')], Spend 0.253000020981 seconds
+2017-05-30 22:32:59,680 root DEBUG E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ScriptExcute\TestTakeOutOrder.py  testCase line:50  閫夋嫨鐨勮彍鍝佹纭�
+2017-05-30 22:32:59,811 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  _getElements line:41  SUCCESS    getElement 鎻愪氦璁㈠崟, Spend 0.130000114441 seconds
+2017-05-30 22:33:00,407 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  鎻愪氦璁㈠崟 click  Spend 0.595999956131 seconds
+2017-05-30 22:33:02,407 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\CommonFunc.py  submitOrder line:33  鎻愪氦璁㈠崟鎴愬姛
+2017-05-30 22:33:06,859 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\MyTest.py  tearDown line:24  ###############################  End  ###############################
