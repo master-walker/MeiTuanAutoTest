@@ -9,30 +9,33 @@ import time,traceback,os,sys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException,TimeoutException
+from Config.ReadConfig import ReadConfig
 
 
 src_path = os.path.abspath('..')
 sys.path.append(src_path)
 reload(sys)
 
+wait_time=ReadConfig.waitTime
+
 success = "SUCCESS   "
 fail = "FAIL   "
 
 
 class BasePage(object):
-    
+
     def __init__(self,driver,logger):
         self.driver=driver
         self.logger=logger
-    
+
     #获取元素和元素信息，返回 数组
-    def _getElements(self,locators):
+    def _getElements(self,locators,waitTime=wait_time):
         driver=self.driver
         logger=self.logger
         t1=time.time()
         try:
             elements=[]
-            element=WebDriverWait(driver,10).until(EC.presence_of_element_located(locators[:2]))
+            element=WebDriverWait(driver,waitTime).until(EC.presence_of_element_located(locators[:2]))
             if len(locators)==3:
                 elementsAndInfosTuple=(element,locators[-1])
             elif len(locators)==2:
@@ -40,11 +43,11 @@ class BasePage(object):
             elements.append(elementsAndInfosTuple)
             logger.info("{0} getElement {1}, Spend {2} seconds".format(success,locators[-1],time.time()-t1))
             return elements
-            
+
         except (NoSuchElementException,TimeoutException):
             logger.info("{0} getElement {1}, Spend {2} seconds".format(fail,locators[-1],time.time()-t1))
             raise Exception
-        
+
     #根据locators获取一个元素，或多个元素
     def getElementAndInfos(self,locators):
         logger=self.logger
@@ -52,25 +55,25 @@ class BasePage(object):
             if isinstance(locators, tuple):
                 elements=self._getElements(locators)
                 return elements
-            
+
             elif isinstance(locators, list):
                 elements=[]
                 for locate in locators:
                     elements.extend(self._getElements(locate))
                 return elements
-            
+
         except TypeError:
             logger.info("参数传值异常")
             return False
-    
-    
+
+
     #获取一组相同类型元素
-    def getGroupElements(self,locate,num=None):
+    def getGroupElements(self,locate,waitTime=wait_time,num=None):
         driver=self.driver
         logger=self.logger
         t1=time.time()
         try:
-            groupElements=WebDriverWait(driver,5).until(EC.presence_of_all_elements_located(locate))
+            groupElements=WebDriverWait(driver,waitTime).until(EC.presence_of_all_elements_located(locate))
             #获取指定个数的元素
             elements=groupElements[:num]
             logger.info("{0} getElement {1}, Spend {2} seconds".format(success,groupElements[-1],time.time()-t1))
@@ -78,7 +81,7 @@ class BasePage(object):
         except TimeoutException:
             logger.info("{0} getElement {1}, Spend {2} seconds".format(fail,groupElements[0],time.time()-t1))
             return False
-                
+
     #输入数据并提交
     #默认参数值应该是不可变的
     def submitData(self,locators,datas,sleep_time=2):
@@ -86,8 +89,8 @@ class BasePage(object):
         self.inputData(locators[:-1], datas)
         time.sleep(sleep_time)
         #提交
-        self.click(locators[-1])   
-    
+        self.click(locators[-1])
+
     #输入数据
     def inputData(self,locators,datas):
         t1=time.time()
@@ -108,12 +111,12 @@ class BasePage(object):
                     logger.info("{0} input {1}, Spend {2} seconds".format(element[1],datas[index],time.time()-t1))
                 else:
                     logger.debug("inputData传值异常")
-                    
+
         except IndexError:
             print traceback.print_exc()
-            
-        
-          
+
+
+
     #点击元素
     def click(self,locators,sleep_time=2):
         elements=self.getElementAndInfos(locators)
@@ -126,9 +129,9 @@ class BasePage(object):
                 time.sleep(sleep_time)
         except Exception:
             print traceback.print_exc()
-            
-    
-            
+
+
+
     #获取元素的文本值
     def getElementText(self,locators):
         logger=self.logger
@@ -143,4 +146,3 @@ class BasePage(object):
                 logger.info("getElementText {0}  Spend {1} seconds".format(text[-1],time.time()-t1))
         except TypeError:
             print traceback.print_exc()
-     
