@@ -7,7 +7,7 @@
 from selenium.webdriver.common.by import By
 
 #公共元素
-class CommonElementsPage(object):
+class CommonElsPage(object):
     #结算按钮
     accountBtn=(By.XPATH,"//android.widget.TextView[contains(@text,'去结算')]","去结算")
     #提交提单按钮

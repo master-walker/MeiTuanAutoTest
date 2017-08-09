@@ -5,7 +5,7 @@ Created on 2017年5月28日
  
 '''
 from ComLib import BasePage
-from Elements.BaseElements import RestaurantPage
+from Element.Elements import RestaurantPage
 
 #餐馆页面
 class MT_Restaurant(BasePage.BasePage):

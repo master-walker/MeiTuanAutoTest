@@ -8,10 +8,10 @@ Created on 2017年5月30日
 '''
 import time
 from ComLib import BasePage
-from Elements.BaseElements import LoginPage,CommonElementsPage
+from Element.Elements import LoginPage,CommonElsPage
 
 
-class CommonFunc(BasePage.BasePage):
+class CommonPage(BasePage.BasePage):
     
     #登录方法
     def login(self,datas):
@@ -24,11 +24,11 @@ class CommonFunc(BasePage.BasePage):
         
     #外卖结算
     def settleAccounts(self):
-        self.click(CommonElementsPage.accountBtn)
+        self.click(CommonElsPage.accountBtn)
         
     #提交订单
     def submitOrder(self):
-        self.click(CommonElementsPage.submitBtn)
+        self.click(CommonElsPage.submitBtn)
         self.logger.info("提交订单成功")
      
       

@@ -7,7 +7,8 @@ Created on 2017年5月25日
 '''
 
 import unittest,time
-from ComLib import CommonFunc,MyTest
+from ComLib import MyTest
+from ComLib import CommonPage
 from Config.ReadConfig import ReadConfig
 from TestCaseUnit import MT_MyPage,MT_HomePage,MT_MeiShiPage,MT_TakeOutPage,MT_Restaurant,MT_SubmitOrder
 
@@ -22,7 +23,7 @@ class TestTakeOutOrder(MyTest.MyTest):
         mt_TakeOutPageClass=MT_TakeOutPage.MT_TakeOutPage(self.driver,self.logger)
         mt_MeiShiPageClass=MT_MeiShiPage.MT_MeiShiPage(self.driver,self.logger)
         mt_RestaurantClass=MT_Restaurant.MT_Restaurant(self.driver,self.logger)
-        comFuncClass=CommonFunc.CommonFunc(self.driver,self.logger)
+        comFuncClass=CommonPage.CommonPage(self.driver,self.logger)
         mt_SubmitOrderClass=MT_SubmitOrder.MT_SubmitOrder(self.driver,self.logger)
         
         #由于美团已登录账号，登录部分注释掉，进入相应的餐馆下单

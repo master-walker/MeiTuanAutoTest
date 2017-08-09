@@ -6,7 +6,7 @@ Created on 2017年5月28日
 @author: Master SkyWalker
 '''
 from ComLib import BasePage
-from Elements.BaseElements import MeiShiPage
+from Element.Elements import MeiShiPage
 
 #美食页面
 class MT_MeiShiPage(BasePage.BasePage):

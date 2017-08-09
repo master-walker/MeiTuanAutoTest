@@ -8,7 +8,7 @@ Created on 2017年5月23日
 '''
 
 from ComLib import BasePage
-from Elements.BaseElements import HomePage
+from Element.Elements import  HomePage
 
 
 

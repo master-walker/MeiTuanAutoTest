@@ -5,7 +5,7 @@ Created on 2017年5月25日
 
 @author: Master SkyWalker
 '''
-from Elements.BaseElements import MyPage
+from Element.Elements import MyPage
 from ComLib import BasePage
 
 
