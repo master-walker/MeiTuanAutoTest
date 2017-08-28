@@ -33,3 +33,10 @@
 2017-05-30 22:33:00,407 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  click line:125  鎻愪氦璁㈠崟 click  Spend 0.595999956131 seconds
 2017-05-30 22:33:02,407 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\CommonFunc.py  submitOrder line:33  鎻愪氦璁㈠崟鎴愬姛
 2017-05-30 22:33:06,859 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\MyTest.py  tearDown line:24  ###############################  End  ###############################
+2017-08-26 20:56:29,730 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\MyTest.py  setUp line:18  
+
+2017-08-26 20:56:29,762 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\MyTest.py  setUp line:19  ############################### START ###############################
+2017-08-26 20:56:31,763 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  getElementAndInfos line:66  参数传值异常
+2017-08-26 20:56:31,826 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  getElementAndInfos line:66  参数传值异常
+2017-08-26 20:56:31,828 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\BasePage.py  getElementAndInfos line:66  参数传值异常
+2017-08-26 20:56:34,555 root INFO E:\documents\gitDir\pythonDevDir\MeiTuanAutoTest\src\ComLib\MyTest.py  tearDown line:24  ###############################  End  ###############################

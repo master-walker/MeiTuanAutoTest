@@ -53,7 +53,7 @@ class TestTakeOutOrder(MyTest.MyTest):
             self.logger.debug("选择的菜品不正确")
             raise Exception
          
-        #提交订单
+        #提交订单                            
         comFuncClass.submitOrder()
         time.sleep(3)
     

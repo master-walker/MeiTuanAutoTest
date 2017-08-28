@@ -30,12 +30,11 @@ class BasePage(object):
 
     #获取元素和元素信息，返回 数组
     def _getElements(self,locators,waitTime=wait_time):
-        driver=self.driver
         logger=self.logger
         t1=time.time()
         try:
             elements=[]
-            element=WebDriverWait(driver,waitTime).until(EC.presence_of_element_located(locators[:2]))
+            element=WebDriverWait(self.driver,waitTime).until(EC.presence_of_element_located(locators[:2]))
             if len(locators)==3:
                 elementsAndInfosTuple=(element,locators[-1])
             elif len(locators)==2:
